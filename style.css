@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*{
+    outline: 1px solid black;
+}
+/* General */
+
+body{
+    width: 100%;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    height: 10vh;
+    line-height: 100vh;
+}
+
+h1 span{
+    color: red;
+}
+
+.mainContainer{
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 2.5em;
+    overflow: hidden;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container span{
+    color: red;
+}
+
+.col1,
+.col2{
+    width: 45%;
+    padding: 0.5em;
+    text-align: left;
+    box-shadow: 0px 0px 2px #000;
+    border-radius: 0.5em;
+    overflow-x: hidden;
+}
+
+.radio label{
+    margin-right: 5px;
+}
+
+.button input,
+.submit input,
+.reset input{
+    padding: 2px 18px;
+}
+
+.color input{
+    width: 80px;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
